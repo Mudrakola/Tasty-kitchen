@@ -36,7 +36,7 @@ class Login extends Component {
   submitForm = async event => {
     event.preventDefault()
     const {username, password} = this.state
-    const userDetails = {username, password}
+    const userDetails = {username:'rahul', password:'rahul@2021'}
     const url = 'https://apis.ccbp.in/login'
     const options = {
       method: 'POST',
